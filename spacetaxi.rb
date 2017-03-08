@@ -1,8 +1,8 @@
 # This class will be in charge of telling Ruby what a "space taxi" is, specifying its characteristics and behavior.
 
 class SpaceTaxi
-  attr_accessor
+  attr_accessor :buber
 
-  def initialize
-
+  def initialize (buber)
+    @Buber = buber
   end
